@@ -37,6 +37,9 @@
 #alfredo:hover{
     box-shadow: 0px 1px 2px 3px var(--cores_alfredo_link)
 }
+#artem:hover{
+    box-shadow: 0px 1px 2px 3px var(--cores_artem_link)
+}
 /* fim box sahdows */
 /* inicio efeitos hover class de cada integrante */
 .nath:hover{
@@ -62,6 +65,10 @@
 .alfredo:hover{
     color: var(--cores_alfredo_link);
     text-shadow: 2px 2px 5px  var(--cores_alfredo_link);
+}
+.artem:hover{
+    color: var(--cores_artem_link);
+    text-shadow: 2px 2px 5px  var(--cores_artem_link);
 }
 /* fim hover class */
 /* inicio header */
