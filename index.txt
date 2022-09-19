@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cbc813b45f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>TeamSenai</title>
+</head>
+<body>
+    <!-- header serve de container além de ser semântico -->
+    <header>
+        <div class="title"><h1>SELECT CHARACTER</h1></div>
+        <div class="lateral">
+            <i class="fa-solid fa-cloud-moon"></i>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="wrapper-perfis">
+                <div class="primeira-fila">
+                    <div class="perf" id="jeo">
+                        <div class="container-perf-info-contato">
+                            <div class="img">
+                                <img src="imgs/icon_jeo.jpg" alt="">
+                            </div>
+                            <div class="contato">
+                                <ul>
+                                    <li class="github"><i class="fa-brands fa-github"></i> <a class="jeo" href="https://github.com/jeoana-0" target="_blank">Github</a></li>
+                                    <li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/jeoana-cesar-5b1559241/" target="_blank" class="jeo">Linkedin</a></li>
+                                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:jeoanacesar@gmail.com" class="jeo">Email</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="container-info-gerias">
+                            <div class="info">
+                                <h1>Jeoanã</h1>
+                            <hr><br>
+                        <ul>
+                            <li>Lvl:19</li>
+                            <li>Class:Aprendiz Web Dev</li>
+                            <li>Skills<ul><li> ◈Html</li>
+                            <li> ◈Css</li>
+                            <li> ◈JavaScript</li></ul></li>
+                        </ul>
+                        <a class="jeo">View Group Projects</a>
+                    </div>
+                        </div>
+                    </div>
+                    <div class="perf" id="nath">
+                        <div class="container-perf-info-contato">
+                            <div class="img">
+                                <img src="imgs/nath_icon.png" alt="">
+                            </div>
+                            <div class="contato">
+                                <ul>
+                                    <li class="github"><i class="fa-brands fa-github"></i> <a class="nath" href="#" target="_blank">Github</a></li>
+                                    <li><i class="fa-brands fa-linkedin"></i> <a href="#" target="_blank" class="nath">Linkedin</a></li>
+                                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:#" class="nath">Email</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="container-info-gerias">
+                            <div class="info">
+                                <h1>Nathalia</h1>
+                            <hr><br>
+                        <ul>
+                            <li>Lvl:20</li>
+                            <li>Class:---</li>
+                            <li>Skills<ul><li> ◈---</li>
+                            <li> ◈--</li>
+                            <li> ◈--</li></ul></li>
+                        </ul>
+                        <a class="nath">View Group Projects</a>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="segunda-fila">
+                    <div class="perf" id="lucas">
+                        <div class="container-perf-info-contato">
+                            <div class="img">
+                                <img src="imgs/lucas_icon.png" alt="">
+                            </div>
+                            <div class="contato">
+                                <ul>
+                                    <li class="github"><i class="fa-brands fa-github"></i> <a class="lucas" href="https://github.com/LucasFrez" target="_blank">Github</a></li>
+                                    <li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/lucas-fernandes-rezende-b8310b196/" target="_blank" class="lucas">Linkedin</a></li>
+                                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:fernandes090500@gmail.com" class="lucas">Email</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="container-info-gerias">
+                            <div class="info">
+                                <h1>Lucas</h1>
+                            <hr><br>
+                        <ul>
+                            <li>Lvl: 22</li>
+                            <li>Class: Estudante</li>
+                            <li>Skills<ul>
+                            <li> ◈Inglês</li>
+                            <li> ◈HTML</li>
+                            <li> ◈CSS</li>
+                            </ul></li>
+                        </ul>
+                        <a class="lucas">View Group Projects</a>
+                    </div>
+                        </div>
+                    </div>
+                    <div class="perf" id="heitor">
+                        <div class="container-perf-info-contato">
+                            <div class="img">
+                                <img src="imgs/icon_jeo.jpg" alt="">
+                            </div>
+                            <div class="contato">
+                                <ul>
+                                    <li class="github"><i class="fa-brands fa-github"></i> <a class="heitor" href="#" target="_blank">Github</a></li>
+                                    <li><i class="fa-brands fa-linkedin"></i> <a href="" target="_blank" class="heitor">Linkedin</a></li>
+                                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:" class="heitor">Email</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="container-info-gerias">
+                            <div class="info">
+                                <h1>Heitor</h1>
+                            <hr><br>
+                        <ul>
+                            <li>Lvl:--</li>
+                            <li>Class:---</li>
+                            <li>Skills<ul><li> ◈---</li>
+                            <li> ◈--</li>
+                            <li> ◈--</li></ul></li>
+                        </ul>
+                        <a class="heitor">View Group Projects</a>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="terceira-fila">
+                    <div class="perf" id="alfredo">
+                        <div class="container-perf-info-contato">
+                            <div class="img">
+                                <img src="imgs/alfredo_icone.png" alt="">
+                            </div>
+                            <div class="contato">
+                                <ul>
+                                    <li class="github"><i class="fa-brands fa-github"></i> <a class="alfredo" href="" target="_blank">Github</a></li>
+                                    <li><i class="fa-brands fa-linkedin"></i> <a href="" target="_blank" class="alfredo">Linkedin</a></li>
+                                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:" class="alfredo">Email</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="container-info-gerias">
+                            <div class="info">
+                                <h1>Alfredo</h1>
+                            <hr><br>
+                        <ul>
+                            <li>Lvl:--</li>
+                            <li>Class:--</li>
+                            <li>Skills<ul><li> ◈--</li>
+                            <li> ◈--</li>
+                            <li> ◈--</li></ul></li>
+                        </ul>
+                        <a class="alfredo">View Group Projects</a>
+                    </div>
+                        </div>
+                    </div>
+                    <div class="perf" id="veronica">
+                        <div class="container-perf-info-contato">
+                            <div class="img">
+                                <img src="imgs/veronica_icon.png" alt="">
+                            </div>
+                            <div class="contato">
+                                <ul>
+                                    <li class="github"><i class="fa-brands fa-github"></i> <a class="veronica" href="#" target="_blank">Github</a></li>
+                                    <li><i class="fa-brands fa-linkedin"></i> <a href="#" target="_blank" class="veronica">Linkedin</a></li>
+                                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:#" class="veronica">Email</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="container-info-gerias">
+                            <div class="info">
+                                <h1>Veronica</h1>
+                            <hr><br>
+                        <ul>
+                            <li>Lvl:--</li>
+                            <li>Class:---</li>
+                            <li>Skills<ul><li> ◈---</li>
+                            <li> ◈--</li>
+                            <li> ◈--</li></ul></li>
+                        </ul>
+                        <a class="veronica">View Group Projects</a>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="quarta-fila">
+                    <div class="perf" id="artem">
+                        <div class="container-perf-info-contato">
+                            <div class="img">
+                                <img src="" alt="">
+                            </div>
+                            <div class="contato">
+                                <ul>
+                                    <li class="github"><i class="fa-brands fa-github"></i> <a class="artem" href="#" target="_blank">Github</a></li>
+                                    <li><i class="fa-brands fa-linkedin"></i> <a href="#" target="_blank" class="artem">Linkedin</a></li>
+                                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:#" class="artem">Email</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="container-info-gerias">
+                            <div class="info">
+                                <h1>Artem</h1>
+                            <hr><br>
+                        <ul>
+                            <li>Lvl:--</li>
+                            <li>Class:---</li>
+                            <li>Skills<ul><li> ◈---</li>
+                            <li> ◈--</li>
+                            <li> ◈--</li></ul></li>
+                        </ul>
+                        <a class="artem">View Group Projects</a>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
