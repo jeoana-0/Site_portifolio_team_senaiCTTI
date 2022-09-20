@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/cbc813b45f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
+    <script src="javaScript/theme.js"> </script>
     <title>TeamSenai</title>
 </head>
-<body>
+<body id="body">
     <!-- header serve de container além de ser semântico -->
     <header>
         <div class="title"><h1>SELECT CHARECTER</h1></div>
         <div class="lateral">
-            <i class="fa-solid fa-cloud-moon"></i>
+            <input type="checkbox" name="theme" id="theme" onclick="change_theme();"><label for="theme"><i class="fa-solid fa-cloud-moon"></i></label>
         </div>
     </header>
     <main>
@@ -23,7 +24,7 @@
                     <div class="perf" id="jeo">
                         <div class="container-perf-info-contato">
                             <div class="img">
-                                <img src="imgs/icon_jeo.jpg" alt="">
+                                <img src="imgs/jeo_icon2.png" alt="">
                             </div>
                             <div class="contato">
                                 <ul>
@@ -36,7 +37,7 @@
                         <hr>
                         <div class="container-info-gerias">
                             <div class="info">
-                                <h1>Jeoanã</h1>
+                                <h1><span data-tooltip="Não é Joana é Jeoanã">Jeoanã</span></h1>
                             <hr><br>
                         <ul>
                             <li>Lvl:19</li>
@@ -56,16 +57,16 @@
                             </div>
                             <div class="contato">
                                 <ul>
-                                    <li class="github"><i class="fa-brands fa-github"></i> <a class="nath" href="https://github.com/inathlia" target="_blank">Github</a></li>
+                                    <li class="github"><i class="fa-brands fa-github"></i> <a class="nath" href="#" target="_blank">Github</a></li>
                                     <li><i class="fa-brands fa-linkedin"></i> <a href="#" target="_blank" class="nath">Linkedin</a></li>
-                                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:nathtenaglia@gmail.com" class="nath">Email</a></li>
+                                    <li><i class="fa-solid fa-envelope"></i> <a href="mailto:#" class="nath">Email</a></li>
                                 </ul>
                             </div>
                         </div>
                         <hr>
                         <div class="container-info-gerias">
                             <div class="info">
-                                <h1>Nathalia</h1>
+                                <h1><span data-tooltip="É dificil ser bonita">Nathalia</span></h1>
                             <hr><br>
                         <ul>
                             <li>Lvl:20</li>
@@ -96,7 +97,7 @@
                         <hr>
                         <div class="container-info-gerias">
                             <div class="info">
-                                <h1>Lucas</h1>
+                                <h1><span data-tooltip="Vocês são incríveis">Lucas</span></h1>
                             <hr><br>
                         <ul>
                             <li>Lvl:--</li>
@@ -112,7 +113,7 @@
                     <div class="perf" id="heitor">
                         <div class="container-perf-info-contato">
                             <div class="img">
-                                <img src="imgs/icon_jeo.jpg" alt="">
+                                <img src="imgs/heitor_icon.png" alt="">
                             </div>
                             <div class="contato">
                                 <ul>
@@ -125,7 +126,7 @@
                         <hr>
                         <div class="container-info-gerias">
                             <div class="info">
-                                <h1>Heitor</h1>
+                                <h1><span data-tooltip="Posso fazer uma pergunta?">Heitor</span></h1>
                             <hr><br>
                         <ul>
                             <li>Lvl:--</li>
@@ -156,7 +157,7 @@
                         <hr>
                         <div class="container-info-gerias">
                             <div class="info">
-                                <h1>Alfredo</h1>
+                                <h1><span data-tooltip="Codar...RolandoD20 = 20">Alfredo</span></h1>
                             <hr><br>
                         <ul>
                             <li>Lvl:--</li>
@@ -185,7 +186,7 @@
                         <hr>
                         <div class="container-info-gerias">
                             <div class="info">
-                                <h1>Veronica</h1>
+                                <h1><span data-tooltip="Estética importa sim!">Veronica</span></h1>
                             <hr><br>
                         <ul>
                             <li>Lvl:--</li>
@@ -216,7 +217,7 @@
                         <hr>
                         <div class="container-info-gerias">
                             <div class="info">
-                                <h1>Artem</h1>
+                                <h1><span data-tooltip="PHP É MUITO MELHOR">Artem</span></h1>
                             <hr><br>
                         <ul>
                             <li>Lvl:--</li>
