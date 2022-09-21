@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(170, 170, 170);
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #login {
+            width: 800px;
+            margin: 0 auto;
+            min-height: 300px;
+            background-color: rgb(148, 140, 226);
+            box-shadow: 0 4px 5px #00000090;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            gap: 30px;
+        }
+
+        #login h1 {
+            text-align: center;
+            font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(40, 37, 71);
+
+        }
+
+        #login input[type="text"],
+        #login input[type="password"] {
+            height: 40px;
+            box-shadow: none;
+            outline: none;
+            padding: 0 10px;
+            color: #333;
+            border: none;
+            border-radius: 4px;
+        }
+
+        #login input[type="submit"] {
+            width: 80px;
+            height: 40px;
+            text-align: center;
+            align-self: center;
+            margin-top: 20px;
+            background-color: #27774b;
+            border: none;
+            border-radius: 4px;
+            color: #e4e4e4;
+            cursor: pointer;
+        }
+
+        #login input[type="submit"]:hover {
+            background-color: #1f5c3a;
+            transform: scaleY(10px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="canco.php" method="post" id="login">
+            <h1>Faça o Login</h1>
+            <input type="text" name="usuario" id="" placeholder="Usuario">
+            <input type="password" name="senha" id="" placeholder="Senha">
+            <input type="submit" value="Logar">
+        </form>
+    </div>
+
+</body>
+
+</html>
