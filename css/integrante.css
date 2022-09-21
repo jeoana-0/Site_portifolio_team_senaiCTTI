@@ -1,0 +1,226 @@
+/* Definição de cores padrões */
+:root{
+    --azul: blue;
+    --cinza: grey;
+    --branco: white;
+    --brancotransparente:rgba(255, 255, 255, 0.605);
+    --fundo: #161616;
+    --fundoclaro: #484848;
+    --pessoa: rgba(255, 0, 0, 0.685);
+    --pessoatransparente: rgba(255, 0, 0, 0.285);
+}
+
+/* Tela de DeskTop */
+@media screen and (min-width: 900px){
+    /* Corpo e Main, mantê-los ocupando a tela toda */
+    #body_integrantes{
+        width: 100vw;
+        height: 100vh;
+        padding: 0%;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        background-color: var(--fundo);
+    }
+    #main_integrantes{
+        width: 100%;
+        height: 100%;
+        background-color: var(--fundo);
+    }
+    /*Fim de Corpo e Main */
+
+    /* Elementos pais: Título e bloco com a tela*/
+    #h1_integrantes{
+        cursor:alias;
+        padding-left: 45px;
+        margin-top: 5%;
+        margin-bottom: 10px;
+        font-size: 60px;
+        color: var(--branco);
+        text-shadow: 5px 5px var(--pessoatransparente);
+    }
+    #h1_integrantes i{
+        color: var(--branco);
+        margin-right: 10px;
+    }
+    #bloco_integrantes{
+        width: 80%;
+        max-height: 70%;
+        height: max-content;
+        margin-top: 0%;
+    }
+    .pais_integrantes{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    /*Fim de Elementos pais */
+
+    /* Janela: integra e delimita os cards  */
+    .pais_integrantes div{
+        display: flex;
+        overflow: none;
+        height: 70vh;
+        width: 100%;
+    }
+    #scroll_integrantes{
+        overflow-y: scroll;
+        padding: 0%;
+        height: 100%;
+        width: 100%;
+        overflow: scroll;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+    #scroll_integrantes ul{
+        width: 94%;
+        height: 100%;
+        margin: 0% 3% 0% 3%;
+        padding: 0%;
+    }
+    /* Scrollbar */
+    #scroll_integrantes::-webkit-scrollbar{
+        cursor: pointer;
+        width: 40px;
+        margin: 0px;
+    }
+    #scroll_integrantes::-webkit-scrollbar-track{
+        background-color: transparent;
+    }
+    #scroll_integrantes::-webkit-scrollbar-thumb{
+        border-radius: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: var(--fundoclaro);
+        border: 7px solid var(--fundo);
+    }
+    #scroll_integrantes::-webkit-scrollbar-button:single-button:vertical:decrement{
+        height: 40px;
+        width: 40px;
+        border-radius: 4px;
+        background-color: var(--pessoa);
+        background-image: url(../imgs/setaup.png);
+        background-size: cover;
+    }
+    #scroll_integrantes::-webkit-scrollbar-button:single-button:vertical:increment{
+        height: 40px;
+        width: 40px;
+        border-radius: 4px;
+        background-color: var(--pessoa);
+        background-image: url(../imgs/setadown.png);
+        background-size: cover;
+    }
+    /* Fim de alteração dos scrolls */
+    /* Cards: Apresentação dos conteúdos */
+    .conquistas_integrantes{
+        cursor: pointer;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        background-color: var(--fundoclaro);
+        overflow: hidden;
+        max-height: 500px;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 100%;
+        grid-template-rows: min-content;
+    }
+    .conquistas_integrantes:hover{
+        border-radius: 10px;
+        margin-bottom: 15px;
+        background-color: var(--fundoclaro);
+        overflow: hidden;
+        max-height: 500px;
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 100%;
+        grid-template-rows: min-content;
+        border: 2px solid var(--pessoatransparente);
+        box-shadow: 4px 4px var(--pessoatransparente);
+    }
+    /* Imagens */
+    .imagens_conquistas_integrantes{
+        display: block;
+        width: 100%;
+        height: auto;
+        max-height: 350px;
+        overflow: hidden;
+        padding: 0%;
+        position: relative;
+        border-radius: 10px;
+    }
+    .imagens_conquistas_integrantes img{
+        border-radius: 10px;
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    /* Fim de Imagens */
+    /* Texto */
+    .bloco_conquistas_integrantes{
+        grid-column: 2 / span 3;
+        width: 35%;
+        max-height: 320px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        overflow: hidden;
+        margin: 0%;
+        padding: 15px;
+    }
+    .bloco_conquistas_integrantes *{
+        padding-left: 5px;
+    }
+    .bloco_conquistas_integrantes h2,h3 {
+        position: relative;
+        bottom: 0%;
+        padding-bottom: 0%;
+        margin: 0%;
+    }
+    /* titulo do card */
+    .bloco_conquistas_integrantes h2{
+        margin-top: 20px;
+        color: var(--branco);
+        text-shadow: 2px 2px var(--pessoatransparente);
+        font-size: 40px;
+    }
+    /* subtitulos do card: integrantes e linguagens do trabalho */
+    .bloco_conquistas_integrantes h3{
+        font-size: 25px;
+        color: var(--brancotransparente);
+        text-shadow: 1px 1px var(--pessoatransparente);
+    }
+    /* Texto */
+    .bloco_conquistas_integrantes p{
+        font-size: 20px;
+        max-width: 90%;
+        color: var(--brancotransparente);
+    }
+    /* Descrições: Explicam ao passar o mouse */
+    [data-tooltip] {
+        position: relative;
+        font-weight: bold;
+    }  
+    [data-tooltip]:after {
+        display: none;
+        position: absolute;
+        top: 24px;
+        padding: 5px;
+        border-radius: 3px;
+        left: 0;
+        content: attr(data-tooltip);
+        white-space: nowrap;
+        background-color: var(--CorPrincipal);
+        color: white;
+    }  
+    [data-tooltip]:hover:after {
+        display: block;
+    }
+    /* Fim de Descrições */
+    /* Fim do Texto */
+    /* Fim de Cards */
+    /* Fim de Janela */
+}
+/* Fim de desktop */
