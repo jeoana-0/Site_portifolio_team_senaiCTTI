@@ -1,0 +1,127 @@
+#theme{
+    display: none;
+}
+
+.lateral {
+    position: absolute;
+    padding: 20px;
+    text-align: right;
+    right: 0;
+}
+.lateral i {
+    color: aqua;
+    cursor: pointer;
+}
+
+:root{
+ --gradiente-roxo:linear-gradient(purple, black);
+ --gradiente-roxo-aqua:linear-gradient(purple, aqua);
+}
+*{
+ margin: 0;
+ padding: 0;
+ transition: all ease-in-out 500ms;
+}
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ background : var(--gradiente-roxo-aqua);
+}
+main{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: 30vh 40vh 30vh;
+ box-sizing: border-box;
+ align-items: center;
+}
+form{
+ display: flex;
+ flex-direction: column;
+ grid-row-start: 2;
+ grid-column-start: 2;
+ border:solid black 2px;
+ box-sizing: border-box;
+ align-items: center;
+ padding: 10px;
+ border-radius: 20px;
+ background-color: #e7e7e7;
+ min-height: 100%;
+ 
+}
+/* 
+form:hover{
+ box-shadow: -1px -1px 25px rgb(232, 2, 232), 1px 1px 25px rgb(232, 2, 232) ;  
+ background-color: #151515;     
+}
+form:hover label{
+ color: #e7e7e7;
+}
+form:hover h2{
+ color: #e7e7e7;
+}
+form:hover  input[type="password"]{
+ box-shadow: -1px -1px 5px rgb(232, 2, 232), 1px 1px 5px rgb(232, 2, 232) ;
+ border: none;
+}
+form:hover  input[type="text"]{
+ box-shadow: -1px -1px 5px rgb(232, 2, 232), 1px 1px 5px rgb(232, 2, 232) ;
+ border: none;
+}
+form:hover input[type="email"]{
+ box-shadow: -1px -1px 5px rgb(232, 2, 232), 1px 1px 5px rgb(232, 2, 232) ;
+ border: none;
+}
+form:hover input[type="submit"]{
+ background-color: transparent;
+ box-shadow: -1px -1px 5px rgb(232, 2, 232), 1px 1px 5px rgb(232, 2, 232) ;
+ color: #e7e7e7;
+ cursor: pointer;
+} */
+
+
+form div{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ height: 60px;
+ width: 100%;
+ align-items: center;
+}
+
+label{
+ text-align: center;
+}
+
+h2{
+ color: #151515;
+}
+
+input[type="password"],
+input[type="text"],
+input[type="email"]{
+ box-sizing: border-box;
+ height: 30px;
+ border-radius: 5px;
+ border-style: solid;
+ border-color: #151515;
+ width: 15rem;
+ text-align: center;
+}
+input[type="submit"],
+input[type="button"]
+{
+ height: 40px;
+ width: 100px;
+ padding: 2.5px;
+ box-sizing: border-box;
+ background-color: rgb(38, 188, 38);
+ border-radius: 10px;
+ border-color: white;
+ color: #e7e7e7;
+ cursor: pointer;
+
+}
+.botoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

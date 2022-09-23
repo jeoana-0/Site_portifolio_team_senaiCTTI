@@ -17,6 +17,8 @@
     --cores_artem_link: rgba(255, 255, 0, 0.747);
     --cores_alfredo_link: rgba(255, 255, 255, 0.733);
     --cores_veronica_link: rgba(255, 0, 179, 0.74);
+    --gradiente-roxo:linear-gradient(purple, black);
+ --gradiente-roxo-aqua:linear-gradient(purple, aqua);
 }
 /* fim var */
 /* Cores do box shadow atrás dos respectivos id */
@@ -75,6 +77,7 @@
 /* inicio header */
 nav a{
     color: #fff;
+    padding: 30px;
 }
 
 nav{
