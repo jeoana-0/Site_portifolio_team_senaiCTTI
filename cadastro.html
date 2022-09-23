@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javaScript/theme.js"> </script>
+    <script src="https://kit.fontawesome.com/cbc813b45f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/pags.css">
+    <title>Cadastro</title>
+</head>
+
+<body id="body">
+    
+    <style>
+        main{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20vh 60vh 20vh;
+   }
+   form{
+    gap: 30px;
+   }
+    </style>
+
+    <div class="lateral">
+        <input type="checkbox" name="theme" id="theme" onclick="change_theme()"><label for="theme"><i class="fa-solid fa-cloud-moon"></i></label>
+    </div>
+    <main id="page">
+        <!-- action="cadastro.php" method="post" -->
+        <form id="form">
+            <h2>Cadastro</h2>
+            <div>
+                <label for="nomme_usuario">Digite seu primeiro nome: </label><br>
+                <input type="text" name="nome_usuario" id="user_name">
+            </div>
+            <div>
+                <label for="nomme_usuario">Digite um usuario ( até 12 caracters ): </label><br>
+                <input type="text" name="usuario" id="user">
+            </div>
+            <div>
+                <label for="nomme_usuario">Digite uma senha ( até 10 caracters ): </label><br>
+                <input type="password" name="senha_usuario" id="pass">
+            </div>
+            <div>
+                <label for="nomme_usuario">Digite seu email: </label><br>
+                <input type="email" name="email_usucario" id="email">
+            </div>
+            <input type="submit" value="Cadastrar">
+        </form>
+    </main>
+</body>
+
+</html>
